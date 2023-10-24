@@ -100,9 +100,9 @@ export default function Home() {
                         setPlaying(false)
                     }}/>
                 </div>
-                <div className={"mb-64"}>
+                <div className={"mb-8"}>
                     <button onClick={play}
-                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-4xl w-72 h-16">
+                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-40 px-4 rounded text-4xl w-72 h-128">
                         {playing ? 'Stop' : 'Play'} sound
                     </button>
                     <audio ref={audioRef} src={audioFile} onEnded={() => setPlaying(false)} />
