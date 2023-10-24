@@ -100,7 +100,7 @@ export default function Home() {
                         setPlaying(false)
                     }}/>
                 </div>
-                <div className={"mb-16"}>
+                <div className={"mb-64"}>
                     <button onClick={play}
                             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-4xl w-72 h-16">
                         {playing ? 'Stop' : 'Play'} sound
